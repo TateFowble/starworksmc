@@ -13,16 +13,16 @@ import ErrorPage from './pages/ErrorPage';
 
 function App() {
   return (
-   <div>
     <Router>
+   <div>
       <Switch>
         <Route path='/' component={HomePage} />
         <Route path='/home' component={HomePage} />
-        <Route path='/404' component={ErrorPage} />
+        <Route exact path='/404' component={ErrorPage} />
         <Route component={ErrorPage} />
       </Switch>
-    </Router>
    </div>
+    </Router>
   );
 }
 
