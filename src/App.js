@@ -2,25 +2,26 @@ import logo from './logo.svg';
 import './App.css';
 
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route
 } from 'react-router-dom';
 
 
-import Homepage from './pages/Homepage';
+import HomePage from './pages/HomePage';
+import ErrorPage from './pages/ErrorPage';
 
 function App() {
   return (
    <div>
-     <Router>
+    <Router>
       <Switch>
-        <Route path='/' component={Homepage} />
-        <Route path='/home' component={Homepage} />
-        <Route path='/404' component={Homepage} />
-        <Route component={Homepage} />
+        <Route path='/' component={HomePage} />
+        <Route path='/home' component={HomePage} />
+        <Route path='/404' component={ErrorPage} />
+        <Route component={ErrorPage} />
       </Switch>
-      </Router>
+    </Router>
    </div>
   );
 }
