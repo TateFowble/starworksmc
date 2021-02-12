@@ -3,6 +3,7 @@ import './App.css';
   // Library imports
 import {
   HashRouter as Router,
+  // BrowserRouter as Router,
   Switch,
   Route
 } from 'react-router-dom';
@@ -16,8 +17,8 @@ function App() {
     <Router>
    <div>
       <Switch>
-        <Route path='/' component={HomePage} />
-        <Route path='/home' component={HomePage} />
+        <Route exact path='/' component={HomePage} />
+        <Route exact path='/home' component={HomePage} />
         <Route exact path='/404' component={ErrorPage} />
         <Route component={ErrorPage} />
       </Switch>

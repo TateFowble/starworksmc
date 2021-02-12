@@ -4,7 +4,8 @@ import { React } from 'react';
 
 
 
-const HomePage = () => {
+const HomePage = (props) => {
+    let a = props.a;
     return (
         <div>
             <h1>Hello! The site is currently under construction, please check back later!</h1>
