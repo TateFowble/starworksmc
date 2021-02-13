@@ -1,16 +1,18 @@
 import { React } from 'react';
 
+import './navigation.css';
 
 
-
-const Navigation = () => {
+const navigation = () => {
     return (
         <div>
-            <h1>Navigation</h1>
+            <div className='fl w-100 bg-red'>
+                
+            </div>
         </div>
     )
 }
 
 
 
-export default Navigation;
+export default navigation;

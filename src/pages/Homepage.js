@@ -1,14 +1,27 @@
 import { React } from 'react';
 
+import './pagecss/homepage.css';
+
+import Navigation from '../components/navigation/navigation';
+import Halfsection from '../components/halfsection/halfsection';
 
 
-
-
-const HomePage = (props) => {
-    let a = props.a;
+const HomePage = () => {
     return (
-        <div>
-            <h1>Hello! The site is currently under construction, please check back later!</h1>
+        <div style={{
+            display: 'flex',
+            flexDirection: 'row'}}>
+            <div>
+                {/* <Navigation /> */}
+            </div>
+            <div>
+                <div>
+                    <Halfsection />
+                </div>
+                <div>
+                    <Halfsection />
+                </div>
+            </div>
         </div>
     )
 }
