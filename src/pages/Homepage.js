@@ -2,24 +2,20 @@ import { React } from 'react';
 
 import './pagecss/homepage.css';
 
-import Navigation from '../components/navigation/navigation';
+// import Navigation from '../components/navigation/navigation';
 import Halfsection from '../components/halfsection/halfsection';
 
+import theImage from '../assets/123.png';
 
 const HomePage = () => {
     return (
-        <div style={{
-            display: 'flex',
-            flexDirection: 'row'}}>
-            <div>
-                {/* <Navigation /> */}
-            </div>
+        <div>
             <div>
                 <div>
-                    <Halfsection />
+                    <Halfsection image={theImage} />
                 </div>
                 <div>
-                    <Halfsection />
+                    <Halfsection image={theImage} />
                 </div>
             </div>
         </div>

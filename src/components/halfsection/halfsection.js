@@ -2,13 +2,14 @@ import { React } from 'react';
 
 import './halfsection.css';
 
-import image from '../../assets/123.png';
+
 
 
 const halfsection = (props) => {
+    let image = props.image;
     return (
-        <div>
-            <div className='halfsection-background-image' style={{ backgroundImage:`url(${image})`}}>dsadsadsas
+        <div className='fl w-100'>
+            <div className='fl w-50 halfsection-background-image' style={{backgroundImage:`url(${image})`}}>
             </div>
         </div>
     )
