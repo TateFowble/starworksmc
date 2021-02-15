@@ -2,20 +2,15 @@ import { React } from 'react';
 
 import './pagecss/homepage.css';
 
-// import Navigation from '../components/navigation/navigation';
-import Halfsection from '../components/halfsection/halfsection';
+import Navigation from '../components/navigation/navigation';
 
-import theImage from '../assets/123.png';
 
 const HomePage = () => {
     return (
         <div>
+            <Navigation />
             <div>
                 <div>
-                    <Halfsection image={theImage} />
-                </div>
-                <div>
-                    <Halfsection image={theImage} />
                 </div>
             </div>
         </div>

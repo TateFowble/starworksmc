@@ -7,7 +7,10 @@ const navigation = () => {
     return (
         <div>
             <div className='fl w-100 bg-red'>
-                
+                <div className="fl w-30">
+                    s
+                </div>
+                <div></div>
             </div>
         </div>
     )
