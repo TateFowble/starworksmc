@@ -1,0 +1,13 @@
+.homepage-background {
+    width:100vw;
+    height:90vh;
+    /* background-image: url('../../assets/123.png'); */
+    background-color: green;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+
+.homepage-text {
+    color: white;
+}

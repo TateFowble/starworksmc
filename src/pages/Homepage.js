@@ -4,13 +4,13 @@ import './pagecss/homepage.css';
 
 import Navigation from '../components/navigation/navigation';
 
-
 const HomePage = () => {
     return (
-        <div>
-            <Navigation />
+        <div className='homepage-background'>
+            {/* <Navigation /> */}
             <div>
                 <div>
+                    <h1 className='homepage-text'></h1>
                 </div>
             </div>
         </div>
