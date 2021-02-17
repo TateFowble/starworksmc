@@ -1,9 +1,9 @@
 .homepage-background {
     background-image: url('../../assets/background.png');
-    background-color: rgb(255, 255, 255);
+    background-color: black;
     background-position: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-origin: border-box;
 }
 

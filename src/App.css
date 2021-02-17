@@ -59,3 +59,21 @@
 .h-10 {
   height: 10vh;
 }
+.fl-l {
+  float: left;
+}
+.fl-r {
+  float:right;
+}
+.block {
+  display:block;
+}
+.inline {
+  display:inline;
+}
+.check {
+  background:red;
+}
+.text-center {
+  text-align: center;
+}
