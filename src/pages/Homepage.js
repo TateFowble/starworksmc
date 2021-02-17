@@ -10,7 +10,7 @@ const HomePage = () => {
             {/* <Navigation /> */}
             <div>
                 <div>
-                    <h1 className='homepage-text'></h1>
+                    <h1 className='homepage-text'>lol</h1>
                 </div>
             </div>
         </div>
