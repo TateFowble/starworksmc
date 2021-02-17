@@ -8,11 +8,11 @@ const HomePage = () => {
     return (
         <div className='homepage-background'>
             {/* <Navigation /> */}
-            <div>
+            {/* <div>
                 <div>
                     <h1 className='homepage-text'>lol</h1>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
