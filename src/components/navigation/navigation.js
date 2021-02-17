@@ -6,8 +6,8 @@ import './navigation.css';
 const navigation = () => {
     return (
         <div>
-            <div className='fl w-100 bg-red navigation-height'>
-                <div className="fl w-30 bg-blue">
+            <div className='w-100 navigation-height'>
+                <div className="w-30">
                 </div>
             </div>
         </div>
