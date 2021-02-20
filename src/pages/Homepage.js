@@ -8,11 +8,11 @@ const HomePage = () => {
     return (
         <div>
             <div className='w-100 h-100 homepage-background'>
-                <Navigation />
+                {/* <Navigation /> */}
                 <div className='w-100 h-10'></div>
                 <div className='w-20 h-10 fl-l inline '></div>
                 <div className='w-60 h-10 fl-l inline text-center'>
-                    <h1 style={{fontSize:'72px',color:'white'}}>PLAY.STARWORKSMC.US</h1>
+                    <h1 className='text'>PLAY.STARWORKSMC.US</h1>
                 </div>
                 <div className='w-20 h-10 fl-l inline'></div>
             </div>
